@@ -1,0 +1,22 @@
+[Epoch: 11,    96/ 1000 points] total loss, accuracy per batch: 0.124, 0.990
+[Epoch: 11,   192/ 1000 points] total loss, accuracy per batch: 0.097, 1.000
+[Epoch: 11,   288/ 1000 points] total loss, accuracy per batch: 0.108, 1.000
+[Epoch: 11,   384/ 1000 points] total loss, accuracy per batch: 0.094, 1.000
+[Epoch: 11,   480/ 1000 points] total loss, accuracy per batch: 0.104, 1.000
+[Epoch: 11,   576/ 1000 points] total loss, accuracy per batch: 0.081, 1.000
+[Epoch: 11,   672/ 1000 points] total loss, accuracy per batch: 0.097, 1.000
+[Epoch: 11,   768/ 1000 points] total loss, accuracy per batch: 0.094, 1.000
+[Epoch: 11,   864/ 1000 points] total loss, accuracy per batch: 0.122, 0.979
+[Epoch: 11,   960/ 1000 points] total loss, accuracy per batch: 0.094, 0.990
+06/27/2023 02:52:40 AM [INFO]: Evaluating test samples...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 13.22it/s]
+06/27/2023 02:52:47 AM [INFO]: ***** Eval results *****
+06/27/2023 02:52:47 AM [INFO]:   Test loss = tensor(1.5409, device='cuda:0')
+06/27/2023 02:52:47 AM [INFO]:   accuracy = 0.5510141987829614
+06/27/2023 02:52:47 AM [INFO]:   f1 = 0.42105263157894735
+06/27/2023 02:52:47 AM [INFO]:   precision = 0.4500907441016334
+06/27/2023 02:52:47 AM [INFO]:   recall = 0.39553429027113235
+Epoch finished, took 13.44 seconds.
+Losses at Epoch 11: 0.1014945
+Train accuracy at Epoch 11: 0.9958333
+Test f1 at Epoch 11: 0.4210526
